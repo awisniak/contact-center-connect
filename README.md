@@ -1,13 +1,23 @@
+# Contact Center Sample App
+The sample app implements [Pypestream's Contact Center API](https://developers.pypestream.com/reference/contact-center-api-overview) functions such as escalating a conversation to an agent based on skills, sending and receiving messages and indicating when a user is typing.
+
+
+# Prerequisites
+- Create an account with Pypestream
+- Create an account with a Contact Center
+
+
 # Contact Center Pro
 - [Technology](#technology)
 - [Installation](#installation)
 - [Running the app](#running-the-app)
 - [Test](#test)
-- docs:
+- Docs:
     - [Add new service](/docs/add-new-service.md)
     - [Configure serviceNow instance](/docs/configure-serviceNow-instance.md)
     - [Modules structure](/docs/modules-structure.md)
     - [SDK documentation](https://ccc.claybox.usa.pype.engineering/docs/modules.html)
+
 ### Technology
 
 - **NestJS**: NestJS is a progressive Node.js framework for building efficient, reliable and scalable server-side applications. 
@@ -76,4 +86,4 @@ $ npm run test
 ```
 
 ## License
-TBD
+All sample applications and code are made available to you for informational purposes only and any use is at your own risk. Pypestream makes no representation or warranty regarding their accuracy, reliability or use and makes no commitment that they will be free of inaccuracies, errors, bugs or interruptions. Pypestream will not be liable for any claims, damages or liability related to the sample applications and code or your use of them.
